@@ -1,0 +1,17 @@
+{
+	"Name": "S2.TF3DevTest",
+	"Description": "Adds `2Titanfall 3 Dev Test`0 in the bottom right corner of the screen.",
+	"LoadPriority": 2,
+	"RequiredOnClient": false,
+	"Version": "1.0",
+	
+	"Scripts": [
+		{
+			"Path": "s2_tf3_devtest.nut",
+			"RunOn": "CLIENT",
+			"ClientCallback": {
+				"After": "tf3devtestInit"
+			}
+		}
+	]
+}
